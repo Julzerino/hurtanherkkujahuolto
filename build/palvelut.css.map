@@ -1,0 +1,1 @@
+{"version":3,"file":"palvelut.css","mappings":";;;AAAA;AACA;EACI;EACA;AACJ,C","sources":["webpack://hurtanherkkujahuolto/./blocks/palvelut/src/editor.scss"],"sourcesContent":["/* Editor styles for palvelut (placeholder) */\n.wp-admin .palvelut-container {\n    border: 1px dashed #ccc;\n    padding: 20px;\n}"],"names":[],"sourceRoot":""}

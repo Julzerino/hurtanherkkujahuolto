@@ -1,0 +1,30 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.etusivun-hero {
+	background-image: linear-gradient(180deg, rgba(253, 199, 50, 0.69) 0%, #ff8f1c 100%) !important;
+    aspect-ratio: 16 / 10;
+    position: relative;
+}
+.etusivun-hero img {
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+@media (max-width: 991px) {
+    .etusivun-hero {
+        display: none;
+    }
+}

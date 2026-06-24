@@ -1,0 +1,31 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/logo-otsikko",
+	"version": "0.1.0",
+	"title": "Logo Otsikko",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Otsikko, jonka yhteyteen voi lisätä logon.",
+	"example": {},
+	"supports": {
+		"html": true
+	},
+	"textdomain": "logo-otsikko",
+	"editorScript": "file:../../build/logo-otsikko.js",
+  	"style": "file:../../build/logo-otsikko.css",
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": "Otsikko"
+		},
+		"imageId": {
+			"type": "number",
+			"default": 0
+		},
+		"imageUrl": {
+			"type": "string",
+			"default": ""
+		}
+	}
+}

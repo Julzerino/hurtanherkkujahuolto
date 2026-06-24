@@ -1,0 +1,23 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/palvelu",
+	"version": "0.1.0",
+	"title": "Palvelu",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Palvelun esittelylohko.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "palvelu",
+	"attributes": {
+		"postId": {
+			"type": "number"
+		}
+	},
+	"editorScript": "file:../../build/palvelu.js",
+	"style": "file:../../build/style-palvelu.css",
+	"render": "file:./src/render.php"
+}

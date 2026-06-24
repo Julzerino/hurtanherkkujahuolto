@@ -1,0 +1,21 @@
+/*!***************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./blocks/logo/src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-logo img {
+  max-height: 120px;
+  max-width: 180px;
+}
+@media (max-width: 1024px) {
+  .wp-block-create-block-logo img {
+    max-height: 80px;
+    max-width: 120px;
+  }
+}
+
+/*# sourceMappingURL=style-logo.css.map*/

@@ -1,0 +1,23 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-etusivun-hero {
+	background-image: linear-gradient(180deg, rgba(253, 199, 50, 0.69) 0%, #ff8f1c 100%) !important;
+    aspect-ratio: 16 / 10;
+    position: relative;
+}
+.wp-block-create-block-etusivun-hero .image {
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}

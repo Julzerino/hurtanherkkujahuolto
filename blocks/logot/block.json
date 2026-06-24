@@ -1,0 +1,17 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/logot",
+	"version": "0.1.0",
+	"title": "Logot",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Logojen nosto",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "logot",
+	"editorScript": "file:../../build/logot.js",
+  	"style": "file:../../build/style-logot.css"
+}

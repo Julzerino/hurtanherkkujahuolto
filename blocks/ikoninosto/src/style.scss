@@ -1,0 +1,18 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-ikoninosto .ikoninosto-inner {
+	padding: 20px 35px;
+	text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px lightgray;
+
+	img {
+		max-height: 80px;
+	}
+}

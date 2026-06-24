@@ -1,0 +1,18 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-logo  img{
+	max-height: 120px;
+	max-width: 180px;
+}
+
+@media (max-width: 1024px) {
+	.wp-block-create-block-logo  img{
+		max-height: 80px;
+		max-width: 120px;
+	}
+}

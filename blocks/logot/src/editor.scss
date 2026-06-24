@@ -1,0 +1,13 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-admin .logot-container {
+	display: block;
+}
+.logot-container, .wp-admin .logot-container .block-editor-block-list__layout {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}

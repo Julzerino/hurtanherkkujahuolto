@@ -1,0 +1,1 @@
+{"version":3,"file":"./style-palvelut.css","mappings":";;;AAAA;EACI;EACA;EACA;EACA;AACJ,C","sources":["webpack://hurtanherkkujahuolto/./blocks/palvelut/src/style.scss"],"sourcesContent":[".palvelut-container {\n    display: flex;\n    flex-wrap: wrap;\n    gap: 15px;\n    justify-content: center;\n}"],"names":[],"sourceRoot":""}
