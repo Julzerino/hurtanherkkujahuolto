@@ -1,0 +1,75 @@
+/*
+ Theme Name: Hurtan herkku ja huolto
+ Template: twentytwentyfive
+ Version: 1.0
+ Author: Julia Kuisma
+ Author URI: https://www.linkedin.com/in/julia-kuisma-082044161/
+*/
+
+/* Buttons */
+.wp-block-buttons .wp-block-button .wp-block-button__link {
+    background-color: var(--wp--preset--color--brand);
+    padding: 8px 20px;
+    border-radius: 0;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.wp-block-buttons .wp-block-button .wp-block-button__link:is(:hover, :focus) {
+    background-color: var(--wp--preset--color--brand-dark);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+/* Header */
+.wp-block-group.main-header {
+    box-shadow: 0 0 14px gray;
+}
+.wp-block-group.main-header .wp-block-navigation__submenu-container.wp-block-navigation-submenu {
+    border-bottom: 5px solid var(--wp--preset--color--brand);
+}
+
+/* Footer */
+.wp-block-social-links .wp-block-social-link.wp-social-link {
+    background-color: var(--wp--preset--color--brand-dark);
+}
+
+/* Single page */
+.wp-block-post-featured-image img{
+    aspect-ratio: 16 / 5;
+}
+
+/* Forms */
+.nf-form-cont {
+    max-width: 1100px;
+    margin: 60px 0;
+    background-color: var(--wp--preset--color--gray);
+    padding: 30px;
+    border-radius: 20px;
+}
+.nf-form-cont .nf-field {
+    margin: 20px 0;
+}
+.nf-form-cont .nf-field input,
+.nf-form-cont .nf-field textarea {
+    border-radius: 10px 10px 10px 10px;
+    border-width: 1px;
+    border-color: #dfdfdf;
+    padding: 10px;
+}
+
+/* Breakpoints */
+@media (max-width: 1024px) {
+    .wp-block-post-featured-image img {
+        aspect-ratio: 16 / 9;
+    }
+    body .wp-block-latest-posts__list.wp-block-latest-posts li {
+        width: 100%;
+    }
+    footer.wp-block-template-part {
+        text-align: center;
+    }
+}

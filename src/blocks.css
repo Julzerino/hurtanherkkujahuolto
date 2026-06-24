@@ -1,0 +1,73 @@
+/* Article listing */
+.wp-block-latest-posts__list.wp-block-latest-posts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.wp-block-latest-posts__list.wp-block-latest-posts li {
+    width: calc(33.333% - 20px);
+    background-color: var(--wp--preset--color--white);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.wp-block-latest-posts__list.wp-block-latest-posts li .wp-block-latest-posts__post-title,
+.wp-block-latest-posts__list.wp-block-latest-posts li time {
+    padding: 15px;
+}
+.wp-block-latest-posts__list.wp-block-latest-posts li .wp-block-latest-posts__featured-image {
+    overflow: hidden;
+    aspect-ratio: 16 / 9;
+    margin-bottom: 10px;
+}
+.wp-block-latest-posts__list.wp-block-latest-posts li .wp-block-latest-posts__featured-image img {
+    object-fit: cover;
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    transition: transform 0.4s ease;
+}
+.wp-block-latest-posts__list.wp-block-latest-posts li:is(:hover, :focus) .wp-block-latest-posts__featured-image img {
+    transform: scale(1.10);
+}
+.wp-block-latest-posts__list.wp-block-latest-posts li .wp-block-latest-posts__post-title {
+    text-decoration: none;
+    font-weight: bold;
+}
+.wp-block-latest-posts__list.wp-block-latest-posts li .wp-block-latest-posts__post-title:is(:hover, :focus) {
+    text-decoration: underline;
+}
+
+/* Cover */
+.wp-block-cover  {
+    padding: 1.8em 1em;
+}
+
+/* Paragraph Styles */
+.is-style-phone.wp-block-paragraph , .is-style-email.wp-block-paragraph, .is-style-maps.wp-block-paragraph {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.is-style-phone.wp-block-paragraph::before, .is-style-email.wp-block-paragraph::before, .is-style-maps.wp-block-paragraph::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+    color: var(--wp--preset--color--brand);
+    min-width: 22px;
+}
+.is-style-phone.wp-block-paragraph::before {
+    content: "\f095"; 
+}
+.is-style-email.wp-block-paragraph::before {
+    content: "\f003";
+}
+.is-style-maps.wp-block-paragraph::before {
+    content: "\f041";
+}
+
+/* Seperator */
+:root :where(.wp-block-separator.is-style-dots):before {
+    font-size: 4rem;
+    color: var(--wp--preset--color--brand);
+    letter-spacing: 0.5rem;
+    padding-left: 1em;
+}
